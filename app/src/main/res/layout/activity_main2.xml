@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sport.com.example.android.mymodel.refrofit.Main2Activity">
+<EditText
+    android:id="@+id/et_input"
+    android:layout_width="match_parent"
+    android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/tv_result"
+        app:layout_constraintTop_toBottomOf="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/btn_search"
+        android:text="搜索"
+        app:layout_constraintTop_toBottomOf="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</android.support.constraint.ConstraintLayout>

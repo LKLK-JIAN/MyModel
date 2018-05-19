@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sport.com.example.android.mymodel.rxjava.RxjavaActivity">
+<Button
+    android:id="@+id/bt1"
+    android:text="无条件轮询"
+    android:layout_width="match_parent"
+    android:layout_height="50dp" />
+    <Button
+        android:id="@+id/bt2"
+        android:text="有条件轮询"
+       app:layout_constraintTop_toBottomOf="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</RelativeLayout>
